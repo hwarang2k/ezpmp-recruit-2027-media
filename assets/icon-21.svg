@@ -1,0 +1,5 @@
+<svg class="ez-inline-art ezart38" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart38m1{0%,76%,100%{opacity:1}42%{opacity:.28}}.ezart38d1{animation:ezart38m1 3.1s ease-in-out -1.38s infinite;}@keyframes ezart38m2{0%,76%,100%{opacity:1}42%{opacity:.28}}.ezart38d2{animation:ezart38m2 3.1s ease-in-out -1.46s infinite;}@keyframes ezart38m3{0%,76%,100%{opacity:1}42%{opacity:.28}}.ezart38d3{animation:ezart38m3 3.1s ease-in-out -1.55s infinite;}@media(prefers-reduced-motion:reduce){.ezart38 *{animation:none!important}}</style><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z" fill="#fff0df" />
+  <path d="M13 5v2" class="ezart38d1" stroke="#ed600a" />
+  <path d="M13 17v2" class="ezart38d3" stroke="#ed600a" />
+  <path d="M13 11v2" class="ezart38d2" stroke="#ed600a" />
+</svg>

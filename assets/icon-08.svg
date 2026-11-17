@@ -1,0 +1,5 @@
+<svg class="ez-inline-art ezart25" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart25m1{0%,76%,100%{transform:none}42%{transform:translateY(-2.6px) rotate(-9deg)}}.ezart25d1{animation:ezart25m1 3.1s ease-in-out -2.07s infinite;transform-origin:4px 10px;transform-box:view-box;}@media(prefers-reduced-motion:reduce){.ezart25 *{animation:none!important}}</style><path d="M20 11v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8" fill="#e9edf0" />
+  <path d="M12 7v14" />
+  <path d="M7.5 7a1 1 0 0 1 0-5A4.8 8 0 0 1 12 7a4.8 8 0 0 1 4.5-5 1 1 0 0 1 0 5" class="ezart25d1" stroke="#ed600a" />
+  <rect x="3" y="7" width="18" height="4" rx="1" class="ezart25d1" fill="#e9edf0" stroke="#ed600a" />
+</svg>

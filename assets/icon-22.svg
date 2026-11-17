@@ -1,0 +1,7 @@
+<svg class="ez-inline-art ezart39" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart39m1{0%,76%,100%{transform:none}42%{transform:scaleY(.22)}}.ezart39d1{animation:ezart39m1 3.1s ease-in-out -1.39s infinite;transform-origin:12px 21px;transform-box:view-box;}@keyframes ezart39m2{0%,76%,100%{transform:none}42%{transform:scaleY(.22)}}.ezart39d2{animation:ezart39m2 3.1s ease-in-out -1.45s infinite;transform-origin:12px 21px;transform-box:view-box;}@keyframes ezart39m3{0%,76%,100%{transform:none}42%{transform:scaleY(.22)}}.ezart39d3{animation:ezart39m3 3.1s ease-in-out -1.50s infinite;transform-origin:12px 21px;transform-box:view-box;}@media(prefers-reduced-motion:reduce){.ezart39 *{animation:none!important}}</style><path d="M12 16v5" class="ezart39d1" stroke="#ed600a" stroke-width="2.3" />
+  <path d="M16 14.639V21" class="ezart39d2" stroke="#ed600a" stroke-width="2.3" />
+  <path d="M20 10.656V21" class="ezart39d3" stroke="#ed600a" stroke-width="2.3" />
+  <path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15" />
+  <path d="M4 18.463V21" />
+  <path d="M8 14.656V21" />
+</svg>
