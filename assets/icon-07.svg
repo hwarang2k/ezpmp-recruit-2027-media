@@ -1,2 +1,19 @@
-<svg class="ez-inline-art ezart24" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart24m1{0%,76%,100%{opacity:.12}42%{opacity:1}}.ezart24d1{animation:ezart24m1 3.1s ease-in-out -2.43s infinite;}@media(prefers-reduced-motion:reduce){.ezart24 *{animation:none!important}}</style><path d="M19.414 14.414C21 12.828 22 11.5 22 9.5a5.5 5.5 0 0 0-9.591-3.676.6.6 0 0 1-.818.001A5.5 5.5 0 0 0 2 9.5c0 2.3 1.5 4 3 5.5l5.535 5.362a2 2 0 0 0 2.879.052 2.12 2.12 0 0 0-.004-3 2.124 2.124 0 1 0 3-3 2.124 2.124 0 0 0 3.004 0 2 2 0 0 0 0-2.828l-1.881-1.882a2.41 2.41 0 0 0-3.409 0l-1.71 1.71a2 2 0 0 1-2.828 0 2 2 0 0 1 0-2.828l2.823-2.762" fill="#fff0df" />
-<path d="M6.2 6.8a2.9 2.9 0 0 1 3.2.6" stroke-width="1.4" stroke="#ed600a" class="ezart24d1" opacity=".12" /></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>결혼 경조 지원</title><style>
+svg{stroke-linecap:round;stroke-linejoin:round}
+.trace{stroke-dasharray:1;animation:draw 3.8s ease-in-out infinite}
+@keyframes draw{0%,12%{stroke-dashoffset:1}48%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.swing,.lid,.knot,.hand,.music{animation:turn 3.8s ease-in-out infinite}
+.swing{--a:-12deg}.lid{--a:-12deg;animation-name:open}.knot{--a:8deg}.hand{--a:75deg}.music{--a:-10deg}
+@keyframes turn{0%,12%,86%,100%{transform:rotate(0)}48%{transform:rotate(var(--a))}}
+@keyframes open{0%,15%,85%,100%{transform:none}46%,57%{transform:translateY(-5px) rotate(var(--a))}}
+.steam{animation:vapor 3s ease-in-out infinite}
+@keyframes vapor{0%,100%{opacity:.42;transform:translateY(2px)}50%{opacity:1;transform:translateY(-2.5px)}}
+.glow,.spark,.heart{animation:light 3.3s ease-in-out infinite}
+@keyframes light{0%,100%{opacity:.64}48%{opacity:1}}
+.spark,.heart{animation-name:beat}
+@keyframes beat{0%,100%{transform:scale(.82);opacity:.72}48%{transform:scale(1.14);opacity:1}}
+.insert,.click{animation:slide 3.8s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:none}47%{transform:translateY(-4px)}}.click{animation-name:tap}
+@keyframes tap{0%,100%{transform:none}48%{transform:translate(-2px,-2px) scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}
+</style><ellipse cx="23" cy="39" rx="12" ry="12" fill="none" stroke="#394755" stroke-width="3.4"/><ellipse cx="40" cy="36" rx="12" ry="12" fill="none" stroke="#df5c12" stroke-width="3.4"/><path d="M14 33q3-5 8-5" fill="none" stroke="#91a0a7" stroke-width="1.6"/><path d="m34 22 3-5h7l3 5-7 7Z" fill="#ffdfb9" stroke="#df5c12" stroke-width="2"/><path d="m34 22 13 0" fill="none" stroke="#df5c12" stroke-width="1.5"/><g class="spark" style="transform-origin:14px 17px"><path d="M10 17h8 M14 13v8" fill="none" stroke="#df5c12" stroke-width="1.9"/></g><g class="spark" style="transform-origin:52px 29px"><path d="M49.5 29h5.0 M52 26.5v5.0" fill="none" stroke="#df5c12" stroke-width="1.9"/></g></svg>

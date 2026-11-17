@@ -1,3 +1,19 @@
-<svg class="ez-inline-art ezart27" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart27m1{0%,76%,100%{transform:none}42%{transform:rotate(105deg)}}.ezart27d1{animation:ezart27m1 3.1s ease-in-out -2.42s infinite;transform-origin:12px 12px;transform-box:view-box;}@media(prefers-reduced-motion:reduce){.ezart27 *{animation:none!important}}</style><circle cx="12" cy="12" r="10" fill="#e9edf0" />
-  <path d="M12 12h4" />
-<path d="M12 12V6" class="ezart27d1" stroke="#ed600a" /></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>선택적 근로시간제</title><style>
+svg{stroke-linecap:round;stroke-linejoin:round}
+.trace{stroke-dasharray:1;animation:draw 3.8s ease-in-out infinite}
+@keyframes draw{0%,12%{stroke-dashoffset:1}48%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.swing,.lid,.knot,.hand,.music{animation:turn 3.8s ease-in-out infinite}
+.swing{--a:-12deg}.lid{--a:-12deg;animation-name:open}.knot{--a:8deg}.hand{--a:75deg}.music{--a:-10deg}
+@keyframes turn{0%,12%,86%,100%{transform:rotate(0)}48%{transform:rotate(var(--a))}}
+@keyframes open{0%,15%,85%,100%{transform:none}46%,57%{transform:translateY(-5px) rotate(var(--a))}}
+.steam{animation:vapor 3s ease-in-out infinite}
+@keyframes vapor{0%,100%{opacity:.42;transform:translateY(2px)}50%{opacity:1;transform:translateY(-2.5px)}}
+.glow,.spark,.heart{animation:light 3.3s ease-in-out infinite}
+@keyframes light{0%,100%{opacity:.64}48%{opacity:1}}
+.spark,.heart{animation-name:beat}
+@keyframes beat{0%,100%{transform:scale(.82);opacity:.72}48%{transform:scale(1.14);opacity:1}}
+.insert,.click{animation:slide 3.8s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:none}47%{transform:translateY(-4px)}}.click{animation-name:tap}
+@keyframes tap{0%,100%{transform:none}48%{transform:translate(-2px,-2px) scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}
+</style><rect x="7" y="16" width="39" height="35" rx="4" fill="#f6f8f9" stroke="#394755" stroke-width="2.4"/><path d="M7 25h39" fill="none" stroke="#394755" stroke-width="2.4"/><path d="M17 12v9m18-9v9" fill="none" stroke="#df5c12" stroke-width="3"/><path d="M14 33h6m6 0h5m-17 8h6" fill="none" stroke="#96a2ac" stroke-width="2.4"/><circle cx="43" cy="41" r="13" fill="#ffffff" stroke="#394755" stroke-width="2.7"/><path d="M43 41v-8" fill="none" stroke="#394755" stroke-width="2.4"/><g class="hand" style="transform-origin:43px 41px"><path d="M43 41l7 3" fill="none" stroke="#df5c12" stroke-width="3"/></g><circle cx="43" cy="41" r="1.8" fill="#df5c12" stroke="none" stroke-width="2.4"/></svg>

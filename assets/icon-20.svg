@@ -1,3 +1,19 @@
-<svg class="ez-inline-art ezart37" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart37m1{0%,76%,100%{transform:none}42%{transform:scaleX(.17)}}.ezart37d1{animation:ezart37m1 3.1s ease-in-out -0.01s infinite;transform-origin:13px 9px;transform-box:view-box;}@media(prefers-reduced-motion:reduce){.ezart37 *{animation:none!important}}</style><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z" fill="#e9edf0" />
-<path d="M12 5v16" />
-  <path d="M14.2 6.4q2.5-1.5 4.6-1.1v9.8q-2.5-.1-4.6 1" stroke-width="1.4" stroke="#ed600a" class="ezart37d1" /></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>도서구입비</title><style>
+svg{stroke-linecap:round;stroke-linejoin:round}
+.trace{stroke-dasharray:1;animation:draw 3.8s ease-in-out infinite}
+@keyframes draw{0%,12%{stroke-dashoffset:1}48%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.swing,.lid,.knot,.hand,.music{animation:turn 3.8s ease-in-out infinite}
+.swing{--a:-12deg}.lid{--a:-12deg;animation-name:open}.knot{--a:8deg}.hand{--a:75deg}.music{--a:-10deg}
+@keyframes turn{0%,12%,86%,100%{transform:rotate(0)}48%{transform:rotate(var(--a))}}
+@keyframes open{0%,15%,85%,100%{transform:none}46%,57%{transform:translateY(-5px) rotate(var(--a))}}
+.steam{animation:vapor 3s ease-in-out infinite}
+@keyframes vapor{0%,100%{opacity:.42;transform:translateY(2px)}50%{opacity:1;transform:translateY(-2.5px)}}
+.glow,.spark,.heart{animation:light 3.3s ease-in-out infinite}
+@keyframes light{0%,100%{opacity:.64}48%{opacity:1}}
+.spark,.heart{animation-name:beat}
+@keyframes beat{0%,100%{transform:scale(.82);opacity:.72}48%{transform:scale(1.14);opacity:1}}
+.insert,.click{animation:slide 3.8s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:none}47%{transform:translateY(-4px)}}.click{animation-name:tap}
+@keyframes tap{0%,100%{transform:none}48%{transform:translate(-2px,-2px) scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}
+</style><path d="M7 17q13-4 24 3v33Q21 45 7 49Zm24 3q10-7 24-3v32q-15-4-24 4Z" fill="#ffffff" stroke="#394755" stroke-width="2.4"/><path d="M13 25q6-1 12 3m-12 3q6 0 12 3" fill="none" stroke="#9eabb1" stroke-width="1.6"/><path d="M39 16v13l4-3 4 1V14" fill="#ffe5cb" stroke="#df5c12" stroke-width="1.7"/><g class="glow" style="transform-origin:32px 32px"><circle cx="48" cy="45" r="8.5" fill="#fff6ea" stroke="#df5c12" stroke-width="2.5"/><g transform="translate(48 45) scale(0.85)"><path d="M-7 -5 -4 5 0 -4 4 5 7 -5 M-8 0H8 M-7 2H7" fill="none" stroke="#df5c12" stroke-width="1.9"/></g></g></svg>

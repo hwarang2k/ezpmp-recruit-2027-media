@@ -1,7 +1,19 @@
-<svg class="ez-inline-art ezart29" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart29m1{0%,76%,100%{transform:none}42%{transform:translate(-.3px,-3px)}}.ezart29d1{animation:ezart29m1 3.1s ease-in-out -2.77s infinite;}@keyframes ezart29m2{0%,76%,100%{transform:none}42%{transform:translate(-.3px,-3px)}}.ezart29d2{animation:ezart29m2 3.1s ease-in-out -2.84s infinite;}@keyframes ezart29m3{0%,76%,100%{transform:none}42%{transform:translate(-.3px,-3px)}}.ezart29d3{animation:ezart29m3 3.1s ease-in-out -2.91s infinite;}@media(prefers-reduced-motion:reduce){.ezart29 *{animation:none!important}}</style><path d="M11.248 3c.273.1.808.53.747 1.36-.05.83-.938 1.2-.989 2.02-.06.78.333 1.24.727 1.62" class="ezart29d2" stroke="#ed600a" />
-  <path d="M16.252 3c.268.1.794.53.745 1.36-.06.83-.923 1.2-.993 2.02-.05.78.338 1.24.725 1.62" class="ezart29d3" stroke="#ed600a" />
-  <path d="M19.5 12 22 6" />
-  <path d="M4 12a1 1 0 00-.99 1.133A9 9 0 0012 21a9 9 0 008.99-7.867A1 1 0 0020 12z" fill="#e9edf0" />
-  <path d="M6.252 3c.268.1.794.53.745 1.36-.06.83-.923 1.2-.993 2.02-.05.78.338 1.24.735 1.62" class="ezart29d1" stroke="#ed600a" />
-  <path d="M7 21h10" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>야근 식대 지원</title><style>
+svg{stroke-linecap:round;stroke-linejoin:round}
+.trace{stroke-dasharray:1;animation:draw 3.8s ease-in-out infinite}
+@keyframes draw{0%,12%{stroke-dashoffset:1}48%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.swing,.lid,.knot,.hand,.music{animation:turn 3.8s ease-in-out infinite}
+.swing{--a:-12deg}.lid{--a:-12deg;animation-name:open}.knot{--a:8deg}.hand{--a:75deg}.music{--a:-10deg}
+@keyframes turn{0%,12%,86%,100%{transform:rotate(0)}48%{transform:rotate(var(--a))}}
+@keyframes open{0%,15%,85%,100%{transform:none}46%,57%{transform:translateY(-5px) rotate(var(--a))}}
+.steam{animation:vapor 3s ease-in-out infinite}
+@keyframes vapor{0%,100%{opacity:.42;transform:translateY(2px)}50%{opacity:1;transform:translateY(-2.5px)}}
+.glow,.spark,.heart{animation:light 3.3s ease-in-out infinite}
+@keyframes light{0%,100%{opacity:.64}48%{opacity:1}}
+.spark,.heart{animation-name:beat}
+@keyframes beat{0%,100%{transform:scale(.82);opacity:.72}48%{transform:scale(1.14);opacity:1}}
+.insert,.click{animation:slide 3.8s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:none}47%{transform:translateY(-4px)}}.click{animation-name:tap}
+@keyframes tap{0%,100%{transform:none}48%{transform:translate(-2px,-2px) scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}
+</style><path d="M49 9a7.5 7.5 0 1 0 7 10 7.8 7.8 0 0 1-7-10Z" fill="#ffe5cb" stroke="#df5c12" stroke-width="1.8"/><path d="M8 31h47c-2 12-9 18-23 18S11 43 8 31Z" fill="#e7edf1" stroke="#394755" stroke-width="2.4"/><path d="M23 50v3h18v-3" fill="#ffffff" stroke="#394755" stroke-width="2.4"/><path d="m39 30 7-12" fill="none" stroke="#394755" stroke-width="2.9"/><g class="steam" style="transform-origin:32px 32px"><path d="M18 26c-3 -4 3 -5 0 -9" fill="none" stroke="#df5c12" stroke-width="2"/></g><g class="steam" style="transform-origin:32px 32px"><path d="M26 25c-3 -4 3 -5 0 -9" fill="none" stroke="#df5c12" stroke-width="2"/></g><path d="M12 31h39" fill="none" stroke="#df5c12" stroke-width="2.5"/></svg>

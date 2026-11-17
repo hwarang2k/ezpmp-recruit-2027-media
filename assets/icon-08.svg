@@ -1,5 +1,19 @@
-<svg class="ez-inline-art ezart25" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart25m1{0%,76%,100%{transform:none}42%{transform:translateY(-2.6px) rotate(-9deg)}}.ezart25d1{animation:ezart25m1 3.1s ease-in-out -2.07s infinite;transform-origin:4px 10px;transform-box:view-box;}@media(prefers-reduced-motion:reduce){.ezart25 *{animation:none!important}}</style><path d="M20 11v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8" fill="#e9edf0" />
-  <path d="M12 7v14" />
-  <path d="M7.5 7a1 1 0 0 1 0-5A4.8 8 0 0 1 12 7a4.8 8 0 0 1 4.5-5 1 1 0 0 1 0 5" class="ezart25d1" stroke="#ed600a" />
-  <rect x="3" y="7" width="18" height="4" rx="1" class="ezart25d1" fill="#e9edf0" stroke="#ed600a" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>입사·생일 기념 선물</title><style>
+svg{stroke-linecap:round;stroke-linejoin:round}
+.trace{stroke-dasharray:1;animation:draw 3.8s ease-in-out infinite}
+@keyframes draw{0%,12%{stroke-dashoffset:1}48%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.swing,.lid,.knot,.hand,.music{animation:turn 3.8s ease-in-out infinite}
+.swing{--a:-12deg}.lid{--a:-12deg;animation-name:open}.knot{--a:8deg}.hand{--a:75deg}.music{--a:-10deg}
+@keyframes turn{0%,12%,86%,100%{transform:rotate(0)}48%{transform:rotate(var(--a))}}
+@keyframes open{0%,15%,85%,100%{transform:none}46%,57%{transform:translateY(-5px) rotate(var(--a))}}
+.steam{animation:vapor 3s ease-in-out infinite}
+@keyframes vapor{0%,100%{opacity:.42;transform:translateY(2px)}50%{opacity:1;transform:translateY(-2.5px)}}
+.glow,.spark,.heart{animation:light 3.3s ease-in-out infinite}
+@keyframes light{0%,100%{opacity:.64}48%{opacity:1}}
+.spark,.heart{animation-name:beat}
+@keyframes beat{0%,100%{transform:scale(.82);opacity:.72}48%{transform:scale(1.14);opacity:1}}
+.insert,.click{animation:slide 3.8s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:none}47%{transform:translateY(-4px)}}.click{animation-name:tap}
+@keyframes tap{0%,100%{transform:none}48%{transform:translate(-2px,-2px) scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}
+</style><rect x="13" y="29" width="38" height="23" rx="3" fill="#e7edf1" stroke="#394755" stroke-width="2.4"/><path d="M29 31h6v21h-6Z" fill="#ffe5cb" stroke="#df5c12" stroke-width="1.7"/><g class="lid" style="transform-origin:14px 28px"><rect x="10" y="24" width="44" height="8" rx="2" fill="#ffe5cb" stroke="#df5c12" stroke-width="2.4"/><path d="M32 24C16 24 14 10 22 11c6 0 10 11 10 13Zm0 0c2-8 7-15 12-12 7 6-5 13-12 12Z" fill="#ffffff" stroke="#df5c12" stroke-width="2.3"/></g><g class="spark" style="transform-origin:52px 14px"><path d="M49 14h6 M52 11v6" fill="none" stroke="#df5c12" stroke-width="1.9"/></g></svg>

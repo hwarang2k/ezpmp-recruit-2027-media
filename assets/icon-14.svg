@@ -1,5 +1,19 @@
-<svg class="ez-inline-art ezart31" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart31m1{0%,76%,100%{transform:none}42%{transform:scale(1.22)}}.ezart31d1{animation:ezart31m1 3.1s ease-in-out -0.02s infinite;transform-origin:12px 14px;transform-box:view-box;}@media(prefers-reduced-motion:reduce){.ezart31 *{animation:none!important}}</style><rect width="8" height="4" x="8" y="2" rx="1" ry="1" />
-  <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" fill="#e9edf0" />
-  <path d="M9 14h6" class="ezart31d1" stroke="#ed600a" />
-  <path d="M12 17v-6" class="ezart31d1" stroke="#ed600a" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>종합건강검진</title><style>
+svg{stroke-linecap:round;stroke-linejoin:round}
+.trace{stroke-dasharray:1;animation:draw 3.8s ease-in-out infinite}
+@keyframes draw{0%,12%{stroke-dashoffset:1}48%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.swing,.lid,.knot,.hand,.music{animation:turn 3.8s ease-in-out infinite}
+.swing{--a:-12deg}.lid{--a:-12deg;animation-name:open}.knot{--a:8deg}.hand{--a:75deg}.music{--a:-10deg}
+@keyframes turn{0%,12%,86%,100%{transform:rotate(0)}48%{transform:rotate(var(--a))}}
+@keyframes open{0%,15%,85%,100%{transform:none}46%,57%{transform:translateY(-5px) rotate(var(--a))}}
+.steam{animation:vapor 3s ease-in-out infinite}
+@keyframes vapor{0%,100%{opacity:.42;transform:translateY(2px)}50%{opacity:1;transform:translateY(-2.5px)}}
+.glow,.spark,.heart{animation:light 3.3s ease-in-out infinite}
+@keyframes light{0%,100%{opacity:.64}48%{opacity:1}}
+.spark,.heart{animation-name:beat}
+@keyframes beat{0%,100%{transform:scale(.82);opacity:.72}48%{transform:scale(1.14);opacity:1}}
+.insert,.click{animation:slide 3.8s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:none}47%{transform:translateY(-4px)}}.click{animation-name:tap}
+@keyframes tap{0%,100%{transform:none}48%{transform:translate(-2px,-2px) scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}
+</style><path d="M12 14v12c0 7 5 11 11 11s11-4 11-11V14" fill="none" stroke="#394755" stroke-width="3.2"/><path d="M23 37v5c0 7 4 11 11 11s12-5 12-12v-4" fill="none" stroke="#394755" stroke-width="3"/><circle cx="12" cy="14" r="2.1" fill="#df5c12" stroke="#df5c12" stroke-width="2.4"/><circle cx="34" cy="14" r="2.1" fill="#df5c12" stroke="#df5c12" stroke-width="2.4"/><circle cx="46" cy="31" r="6.2" fill="#ffe5cb" stroke="#df5c12" stroke-width="2.4"/><circle cx="46" cy="31" r="2" fill="#ffffff" stroke="#df5c12" stroke-width="1.6"/><path class="trace" d="M12 26h6l3-6 4 11 3-5h5" pathLength="1" stroke="#df5c12" stroke-width="2.5" fill="none"/></svg>

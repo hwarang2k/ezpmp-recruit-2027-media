@@ -1,4 +1,19 @@
-<svg class="ez-inline-art ezart41" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="-2 -2 28 28" fill="none" stroke="#49535c" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round"><style>@keyframes ezart41m1{0%,76%,100%{transform:none}42%{transform:scaleX(.66)}}.ezart41d1{animation:ezart41m1 3.1s ease-in-out -1.73s infinite;transform-origin:9px 16px;transform-box:view-box;}@media(prefers-reduced-motion:reduce){.ezart41 *{animation:none!important}}</style><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5" class="ezart41d1" stroke="#ed600a" />
-  <path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244" fill="#e9edf0" />
-  <path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" fill="none" stroke-linecap="round" stroke-linejoin="round"><title>중소기업 복지플랫폼</title><style>
+svg{stroke-linecap:round;stroke-linejoin:round}
+.trace{stroke-dasharray:1;animation:draw 3.8s ease-in-out infinite}
+@keyframes draw{0%,12%{stroke-dashoffset:1}48%,88%{stroke-dashoffset:0}100%{stroke-dashoffset:1}}
+.swing,.lid,.knot,.hand,.music{animation:turn 3.8s ease-in-out infinite}
+.swing{--a:-12deg}.lid{--a:-12deg;animation-name:open}.knot{--a:8deg}.hand{--a:75deg}.music{--a:-10deg}
+@keyframes turn{0%,12%,86%,100%{transform:rotate(0)}48%{transform:rotate(var(--a))}}
+@keyframes open{0%,15%,85%,100%{transform:none}46%,57%{transform:translateY(-5px) rotate(var(--a))}}
+.steam{animation:vapor 3s ease-in-out infinite}
+@keyframes vapor{0%,100%{opacity:.42;transform:translateY(2px)}50%{opacity:1;transform:translateY(-2.5px)}}
+.glow,.spark,.heart{animation:light 3.3s ease-in-out infinite}
+@keyframes light{0%,100%{opacity:.64}48%{opacity:1}}
+.spark,.heart{animation-name:beat}
+@keyframes beat{0%,100%{transform:scale(.82);opacity:.72}48%{transform:scale(1.14);opacity:1}}
+.insert,.click{animation:slide 3.8s ease-in-out infinite}
+@keyframes slide{0%,100%{transform:none}47%{transform:translateY(-4px)}}.click{animation-name:tap}
+@keyframes tap{0%,100%{transform:none}48%{transform:translate(-2px,-2px) scale(.9)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.trace{stroke-dashoffset:0}}
+</style><rect x="7" y="13" width="49" height="37" rx="4" fill="#ffffff" stroke="#394755" stroke-width="2.4"/><path d="M7 23h49" fill="none" stroke="#394755" stroke-width="2.4"/><circle cx="13" cy="18" r="1.2" fill="#df5c12" stroke="none" stroke-width="2.4"/><circle cx="18" cy="18" r="1.2" fill="#aeb8be" stroke="none" stroke-width="2.4"/><rect x="13" y="29" width="10" height="12" rx="2" fill="#e7edf1" stroke="#394755" stroke-width="1.7"/><path d="M28 30h19m-19 6h10" fill="none" stroke="#98a4ad" stroke-width="2"/><g class="click" style="transform-origin:40px 39px"><path d="m40 39 3 13 3-4 4 6 3-2-4-6 5-1Z" fill="#ffe5cb" stroke="#df5c12" stroke-width="1.8"/></g></svg>
