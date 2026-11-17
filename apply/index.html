@@ -11,10 +11,15 @@
 *{box-sizing:border-box}
 html{color:#25231e;background:#ffb244;-webkit-text-size-adjust:100%;font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif}
 body{margin:0;isolation:isolate}
-.backdrop{position:fixed;inset:0;z-index:-1;overflow:hidden;background:linear-gradient(143deg,#fff1a4 0%,#ffbe62 40%,#ff9047 74%,#fce64b)}
-.color{position:absolute;inset:-28%;background:radial-gradient(ellipse at 72% 26%,#eeff39 0%,#efff47 9%,transparent 38%),radial-gradient(ellipse at 20% 73%,#ff7029 2%,#ff9c45 19%,transparent 48%),radial-gradient(ellipse at 30% 18%,#ffe6a0 4%,transparent 41%);animation:flow 14s ease-in-out infinite alternate}
-@keyframes flow{from{transform:translate(-4%,-6%) rotate(-8deg)}to{transform:translate(6%,6%) rotate(9deg)}}
-.ripples{position:absolute;left:45%;top:4%;width:max(82vw,460px);aspect-ratio:1.45;border:1px solid #fff9;border-radius:52% 48% 58% 42%;transform:rotate(-37deg);box-shadow:0 0 0 12px #ffffff1f,0 0 0 13px #ffffff7a,0 0 0 26px #ffffff0a,0 0 0 27px #ffffff65,0 0 0 42px #ffffff0a,0 0 0 43px #ffffff55,0 0 0 59px #ffffff0a,0 0 0 60px #ffffff42}
+.backdrop{position:fixed;inset:0;z-index:-1;overflow:hidden;pointer-events:none;background:linear-gradient(145deg,#ffe598,#ffc05a 54%,#ffb243)}
+.bloom{position:absolute;width:118%;height:108%;background:radial-gradient(ellipse closest-side,var(--core) 0%,var(--core) 17%,var(--veil) 56%,transparent 100%);animation-timing-function:ease-in-out;animation-iteration-count:infinite;will-change:transform}
+.orange{--core:#ff812b;--veil:#ff8c40bc;left:-39%;top:8%;animation-name:orange-bloom;animation-duration:8s;animation-delay:-1.7s}
+.lemon{--core:#eeff32;--veil:#f5ff59be;right:-34%;top:-32%;animation-name:lemon-bloom;animation-duration:9.5s;animation-delay:-3.2s}
+.apricot{--core:#ffe9a0;--veil:#ffda868c;left:5%;bottom:-49%;animation-name:apricot-bloom;animation-duration:7.5s;animation-delay:-2.6s}
+@keyframes orange-bloom{0%,100%{transform:translate3d(-8%,8%,0) scale(.88)}36%{transform:translate3d(21%,-28%,0) scale(1.25)}68%{transform:translate3d(38%,4%,0) scale(1.05)}}
+@keyframes lemon-bloom{0%,100%{transform:translate3d(7%,1%,0) scale(.89)}38%{transform:translate3d(-31%,28%,0) scale(1.25)}72%{transform:translate3d(-5%,51%,0) scale(1.06)}}
+@keyframes apricot-bloom{0%,100%{transform:translate3d(-22%,0,0) scale(.84)}50%{transform:translate3d(14%,-22%,0) scale(1.22)}}
+.ripples{position:absolute;left:40%;top:2%;width:max(84vw,480px);aspect-ratio:1.45;border-radius:52% 48% 58% 42%;transform:rotate(-37deg);border:3px solid #fff8;outline:2px solid #fffa;outline-offset:14px;filter:blur(6px);opacity:.65}
 main{width:min(100%,1000px);min-height:100vh;min-height:100svh;margin:auto;display:grid;align-content:center;padding:max(24px,env(safe-area-inset-top)) clamp(18px,5vw,56px) max(24px,env(safe-area-inset-bottom))}
 .panel{display:grid;grid-template-columns:1.05fr 1fr;background:#fffcf4eb;border:1px solid #ffffffd9;border-radius:30px;overflow:hidden;box-shadow:0 16px 65px #67310c1c}
 .intro{display:flex;flex-direction:column;justify-content:space-between;align-items:flex-start;gap:35px;padding:clamp(30px,5vw,56px);background:linear-gradient(150deg,#fffbec70,#fff8dc19);border-right:1px solid #6d4f2024}
@@ -35,11 +40,12 @@ a:focus-visible{outline:3px solid #593911;outline-offset:3px}
 a:active{transform:scale(.98);background:#fff0cd}
 @media(max-width:680px){main{max-width:500px}.panel{grid-template-columns:1fr;border-radius:26px;background:transparent}.intro{background:linear-gradient(115deg,#fff4cb6b,#fff6d91c);border:0;padding:26px 26px 30px;gap:38px}.actions{padding:24px 22px 26px}h2{font-size:15px;margin-bottom:14px}.brand{width:84px}}
 @media(max-height:570px){main{padding-block:max(12px,env(safe-area-inset-bottom))}.intro{gap:16px;padding-block:18px}.actions{padding-block:16px}a{min-height:52px}}
-@media(prefers-reduced-motion:reduce){.color{animation:none}a,.go{transition:none}}
+@media(prefers-reduced-motion:reduce){.bloom{animation-name:soft-bloom;animation-duration:10s;will-change:opacity}a,.go{transition:none}}
+@keyframes soft-bloom{0%,100%{opacity:.52}50%{opacity:.95}}
 </style>
 </head>
 <body>
-<div class="backdrop" aria-hidden="true"><div class="color"></div><div class="ripples"></div></div>
+<div class="backdrop" aria-hidden="true"><div class="bloom orange"></div><div class="bloom lemon"></div><div class="bloom apricot"></div><div class="ripples"></div></div>
 <main><div class="panel">
 <header class="intro"><img class="brand" src="../assets/ezpmp-logo.png" alt="이즈피엠피" width="495" height="170">
 <hgroup><span class="season">2027 상반기</span><h1>공개채용</h1></hgroup></header>
